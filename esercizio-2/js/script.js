@@ -2,7 +2,7 @@
 
 let arrayNumeri = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-for (var i = 0; i < arrayNumeri.length; i++) {
+for (let i = 0; i < arrayNumeri.length; i++) {
   if (arrayNumeri[i] % 2) {
     document.getElementById('red').innerHTML += `
       ${arrayNumeri[i]}<br>`;

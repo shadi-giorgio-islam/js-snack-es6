@@ -1,7 +1,7 @@
 // Utilizzando const e/o let. Dare la possibilità di inserire due parole. Verificare se le due parole hanno la stessa lunghezza. Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
-let parola1 = prompt('inserisci parola');
-let parola2 = prompt('inserisci parola');
+const parola1 = prompt('inserisci parola');
+const parola2 = prompt('inserisci parola');
 
 if (parola1.length > parola2.length) {
   console.log(parola1);
